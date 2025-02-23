@@ -1,11 +1,11 @@
 // import React from 'react'
 
-const HeroGradient = () => {
+const SkillsText = () => {
   return (
     <div>
       
     </div>
-  )
-}
+  );
+};
 
-export default HeroGradient
+export default SkillsText;

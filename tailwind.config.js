@@ -13,6 +13,7 @@ export default {
       "2xl": "1536px",
     },
     colors: {
+     
       black2: "#232323",
       black: "#161616",
       white: "#f1e1d9",
@@ -22,9 +23,9 @@ export default {
       cyan: "#15d1e9",
       lightcyan: "#88e5f0",
       darkcyan: "#009fb3",
-      orange: "#fb9718",
-      lightorange: "#fac27b",
-      darkorange: "#d28422",
+      yellow: "#fff200",
+      lightyellow: "#effd5f",
+      darkorange: "#ffd300",
       grey: "#626965",
       lightgrey: "#978580",
       darkgrey: "#2f4441"
@@ -32,6 +33,8 @@ export default {
     extend: {
       boxShadow: {
         cyanShadow : "0px 0px 20px 0px rgba(94, 206, 220, 0.5)",
+        cyanMediumShadow : "10px 10px 200px 150px rgba(94, 206, 220, 0.5)",
+        yellowMediumShadow : "10px 10px 200px 150px rgba(255 , 204, 0, 0.5)"
       },
     },
     fontFamily:{

@@ -21,8 +21,8 @@ const NavbarMain = () => {
     </div>
     <NavbarBtn/>
     </div>
-    <div className="flex lg:hidden sm:blocks p-6 bg-black items-center justify-center rounded-full border-[0.5px] border-orange">
-      <button className="text-2xl p-3 border border-orange rounded-full text-white" onClick={toggleMenu}>
+    <div className="flex lg:hidden sm:blocks p-6 bg-black items-center justify-center rounded-full border-[0.5px] border-yellow">
+      <button className="text-2xl p-3 border border-yellow rounded-full text-white" onClick={toggleMenu}>
         <AiOutlineMenuUnfold />
       </button>
     </div>
