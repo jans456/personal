@@ -1,4 +1,4 @@
-// import React from 'react';
+// import React from 'react'
 import { FaPython } from "react-icons/fa";
 // import { BiLogoFlask } from "react-icons/bi";
 // import { BiLogoDjango } from "react-icons/bi";
@@ -16,7 +16,7 @@ import { FaPhp } from "react-icons/fa";
 // import { SiMysql } from "react-icons/si";
 // import { SiAdobeillustrator } from "react-icons/si";
 // import { FaFigma } from "react-icons/fa";
-import SingleSkill from "./SingleSkill";
+
 
 
 const skills = [
@@ -90,18 +90,19 @@ const skills = [
     // }
 ];
 
-const AllSkills = () => {
+const AllSkillsSM = () => {
   return (
-    <div >
-      <div className="flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto">
-        {skills.map((item, index) =>{
-            return (
-                <SingleSkill key={index} text ={item.skill} imgSvg={<item.icon/>}/> 
-            );
+    <div className="grid md:grid-cols-4 sm:grid-cols-2 my-12">
+      {skills.map((item, index) => {
+        return (
+            <div key={index} className="flex flex-col items-center">
+                <item.icon className="text-7xl text-yellow"/>
+                <p className="text-center mt-4 text-white">{item.skill}</p>
+            </div>
+        );
       })}
-      </div>
     </div>
   );
 };
 
-export default AllSkills;
+export default AllSkillsSM;
